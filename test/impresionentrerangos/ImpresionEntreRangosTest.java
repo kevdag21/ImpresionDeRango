@@ -14,11 +14,11 @@ public class ImpresionEntreRangosTest {
      */
     @org.junit.Test
     public void testMain() {
-        int[] resultado = ImpresionEntreRangos.imprimirNumerosPares(3, 8);
-        int[] esperado = {4, 6};
+        int[] resultado = ImpresionEntreRangos.imprimirNumeros(2, 6);
+        int[] esperado = {3, 4, 5};
         Assertions.assertArrayEquals(esperado, resultado);
         
-        int[] resultado2 = ImpresionEntreRangos.imprimirNumerosPares(9, 11);
+        int[] resultado2 = ImpresionEntreRangos.imprimirNumeros(2, 2);
         int[] esperado2 = {};
         Assertions.assertArrayEquals(esperado2, resultado2);
     }
