@@ -28,6 +28,11 @@ public class ImpresionEntreRangos {
         int rangoMayor = scanner.nextInt();
 
         int[] numerosEnRango = imprimirNumeros(rangoMenor, rangoMayor);
+        
+        if(numerosEnRango.length == 0) {
+             System.out.println("Sin rango");
+             return;
+        }
 
         System.out.println("Los números entre " + rangoMenor + " y " + rangoMayor + " son:");
         for (int numero : numerosEnRango) {
