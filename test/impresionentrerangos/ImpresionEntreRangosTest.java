@@ -18,7 +18,7 @@ public class ImpresionEntreRangosTest {
         int[] esperado = {4, 6};
         Assertions.assertArrayEquals(esperado, resultado);
         
-        int[] resultado2 = ImpresionEntreRangos.imprimirNumerosPares(9,10);
+        int[] resultado2 = ImpresionEntreRangos.imprimirNumerosPares(9,11);
         int[] esperado2 = {};
         Assertions.assertArrayEquals(esperado2, resultado2);
     }
